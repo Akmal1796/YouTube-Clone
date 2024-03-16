@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="left-section">
+            <img src="icons/hamburger-menu.svg" class="hamburger-menu">
+            <img src="icons/youtube-logo.svg" class="youtube-logo"> 
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button"><img src="icons/search.svg" class="search-icon">
+            <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button"><img src="icons/voice-search-icon.svg" class="voice-search-icon">
+            <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="icons/upload.svg">
+                <div class="tooltip">Create</div>
+            </div>
+
+            <div class="youtube-apps-icon-container">
+                <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+                <div class="tooltip">Youtube Apps</div>
+            </div>
+
+            <div class="notifications-icon-container">
+                <img class="notifications-icon" src="icons/notifications.svg">
+                <div class="notifications-count">3</div>
+                <div class="tooltip">Notifications</div>
+            </div>
+            <img class="current-user-picture" src="Channel-Pic/my-channel.jpeg">
+        </div>
+    </header>
+
+    <nav class="sidebar">
+        <div class="sidebar-link">
+            <img src="icons/home.svg">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <div class="sidebar-link">
+                <img src="icons/explore.svg">
+                <div>Home</div>
+            </div></div>
+        <div class="sidebar-link">
+            <div class="sidebar-link">
+                <img src="icons/subscriptions.svg">
+                <div>Home</div>
+            </div></div>
+        <div class="sidebar-link">
+            <div class="sidebar-link">
+                <img src="icons/originals.svg">
+                <div>Home</div>
+            </div></div>
+        <div class="sidebar-link">
+            <div class="sidebar-link">
+                <img src="icons/youtube-music.svg">
+                <div>Home</div>
+            </div></div>
+        <div class="sidebar-link">
+            <div class="sidebar-link">
+                <img src="icons/library.svg">
+                <div>Home</div>
+            </div></div>
+    </nav>
+
+    <main>
+
+        <section class="video-grid">
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://youtu.be/bfW6dzCFy2A?feature=shared">
+                        <img src="thumbnails/luffy.jpg" class="thumbnail">
+                    </a>
+                    <div class="video-time">4:25</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/channel/UCuoKuTCQ9dmPIgOgyLm9HgQ">
+                            <img src="Channel-Pic/channel-pic.jpg" class="profile-picture">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a href="https://youtu.be/bfW6dzCFy2A?feature=shared">One Piece OST: Overtaken | EPIC VERSION (Drums of Liberation)</a>
+                        </p>
+                        <p class="video-author">
+                            One Peice
+                        </p>
+                        <p class="video-stats">
+                            12M views &#183; 1 year ago 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=U-N-ujzs0DU">
+                        <img src="thumbnails/tumbnail2.webp" class="thumbnail">
+                    </a>
+                    <div class="video-time">5:49</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/@all_aboout_life">
+                            <img src="Channel-Pic/channel-pic5.jpg" class="profile-picture">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a href="https://www.youtube.com/watch?v=U-N-ujzs0DU">
+                                Interlinked | Memory Reboot
+                            </a>
+                        </p>
+                        <p class="video-author">
+                            all about life
+                        </p>
+                        <p class="video-stats">
+                            687K views &#183; 5 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=DOOxUy-68X0">
+                        <img src="thumbnails/img 3.webp" class="thumbnail">
+                    </a>
+                    <div class="video-time">33:25</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/@KinoCheck.com">
+                            <img src="Channel-Pic/channel-pic2.jpg" class="profile-picture">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a href="https://www.youtube.com/watch?v=DOOxUy-68X0">
+                                THE BEST UPCOMING MOVIES 2024 (Trailers)
+                            </a>
+                        </p>
+                        <p class="video-author">
+                            KinoCheck.com
+                        </p>
+                        <p class="video-stats">
+                            7.9M views &#183; 1 month ago 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=DRT1lp1sGW4">
+                        <img src="thumbnails/img 5.webp" class="thumbnail">
+                    </a>
+                    <div class="video-time">8:36</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/@RAJIEEN_">
+                            <img src="Channel-Pic/channel-pic3.jpg" class="profile-picture">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a href="https://www.youtube.com/watch?v=DRT1lp1sGW4">
+                                Rajieen | راجعين (OFFICIAL MUSIC VIDEO)
+                            </a>
+                        </p>
+                        <p class="video-author">
+                            RAJIEEN  راجعين
+                        </p>
+                        <p class="video-stats">
+                            3.6M views &#183; 2 months ago 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=Gc4Xh8u19NU">
+                        <img src="thumbnails/img 4.webp" class="thumbnail">
+                    </a>
+                    <div class="video-time">10:11</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/@WebDevSimplified">
+                            <img src="Channel-Pic/channel-pic4.jpg" class="profile-picture">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a href="https://www.youtube.com/watch?v=Gc4Xh8u19NU">
+                                The Ultimate Web Developer Roadmap For 2024
+                            </a>
+                        </p>
+                        <p class="video-author">
+                            Web Dev Simplified
+                        </p>
+                        <p class="video-stats">
+                            122K views &#183; 8 days ago 
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=hc1XZYLwIhw">
+                        <img src="thumbnails/thumbanil6.webp" class="thumbnail">
+                    </a>
+                    <div class="video-time">3:03</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/@jamong_ccl">
+                            <img src="Channel-Pic/channels5_profile.jpg" class="profile-picture">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a href="https://www.youtube.com/watch?v=hc1XZYLwIhw">
+                                Solo Leveling - Opening FULL "LEveL" by SawanoHiroyuki[nZk]:TOMORROW X TOGETHER (Lyrics)
+                            </a>
+                        </p>
+                        <p class="video-author">
+                            Jamong
+                        </p>
+                        <p class="video-stats">
+                            819K views &#183; 3 weeks ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img src="thumbnails/thumbanil7.webp" class="thumbnail">
+                    <div class="video-time">3:49</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img src="Channel-Pic/channels6_profile.jpg" class="profile-picture">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Google — 25 Years in Search: The Most Searched
+                            
+                        </p>
+                        <p class="video-author">
+                            Google
+                        </p>
+                        <p class="video-stats">
+                            351M views &#183; 1 month ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img src="thumbnails/thumbanil8.webp" class="thumbnail">
+                    <div class="video-time">25:07</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img src="Channel-Pic/channels7_profile.jpg" class="profile-picture">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Samsung S24 Ultra Review - Goodbye iPhone?
+                        </p>
+                        <p class="video-author">
+                            Mrwhosetheboss
+                        </p>
+                        <p class="video-stats">
+                            3.8M views &#183; 2 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img src="thumbnails/thumbanil9.webp" class="thumbnail">
+                    <div class="video-time">15:22</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img src="Channel-Pic/channels8_profile.jpg" class="profile-picture">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">My Visual Studio Code Setup for Web Development
+                        </p>
+                        <p class="video-author">
+                            ForrestKnight
+                        </p>
+                        <p class="video-stats">
+                            988K views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img src="thumbnails/thumbanil10.webp" class="thumbnail">
+                    <div class="video-time">1:24:51</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img src="Channel-Pic/channels9_profile.jpg" class="profile-picture">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Khalid ibn al-Walid, a Profile of a Warrior
+                        </p>
+                        <p class="video-author">
+                            The Austin School
+                        </p>
+                        <p class="video-stats">
+                            2M views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img src="thumbnails/thumbanil11.webp" class="thumbnail">
+                    <div class="video-time">18:11</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img src="Channel-Pic/channels9_profile.jpg" class="profile-picture">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Building the WORLDS FIRST PlayStation 5: Tablet Edition  
+                        </p>
+                        <p class="video-author">
+                            DIY Perks
+                        </p>
+                        <p class="video-stats">
+                            3M views &#183; 2 weeks ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img src="thumbnails/thumbanil12.webp" class="thumbnail">
+                    <div class="video-time">21:42</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img src="Channel-Pic/channels10_profile.jpg" class="profile-picture">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">I Don't Care if This Makes Sense - Chilling Threadripper Pro 7000
+                        </p>
+                        <p class="video-author">
+                            Linus Tech Tips
+                        </p>
+                        <p class="video-stats">
+                            1.3M views &#183; 7 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+
+    </main>
+
+    <script></script>
+</body>
+</html>
